@@ -19,12 +19,12 @@
         <contextRoot>template</contextRoot>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>42.2.27</version>
-            <scope>provided</scope> <!-- или без scope для включения в WAR -->
-        </dependency>
-    </dependencies>
+<!--    <dependencies>-->
+<!--        <dependency>-->
+<!--            <groupId>org.postgresql</groupId>-->
+<!--            <artifactId>postgresql</artifactId>-->
+<!--            <version>42.2.27</version>-->
+<!--            <scope>provided</scope> &lt;!&ndash; или без scope для включения в WAR &ndash;&gt;-->
+<!--        </dependency>-->
+<!--    </dependencies>-->
 </project>

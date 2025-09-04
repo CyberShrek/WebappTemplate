@@ -4,8 +4,9 @@ SELECT
     ${boolParam}::boolean as bool_value,
     ${nullParam} as null_value,
     ${repeatedParam} as first_occurrence,
+    '?' as unknown_param,
     ${repeatedParam} as second_occurrence,
-    CURRENT_TIMESTAMP as current_time,
+    (CURRENT_TIMESTAMP)::text as "current_time",
     'constant_value' as constant,
     CASE WHEN ${conditionalParam} IS NOT NULL THEN 'has_value' ELSE 'no_value' END as conditional_check
 WHERE 1=1
