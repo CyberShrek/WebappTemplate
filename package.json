@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "cd ../WebappClient && npm run build -- --INPUT_DIR=./src/main/svelte --OUTPUT_DIR=./src/main/resources/public/js/built",
-    "dev":   "cd ../WebappClient && npm run dev   -- --INPUT_DIR=./src/main/svelte --OUTPUT_DIR=./src/main/resources/public/js/built"
+    "build": "rollup -c node_modules/@my-company/frontend-config/rollup.config.js"
+  },
+  "devDependencies": {
+    "@vniizht/frontend-config": "file:../WebappClient"
   }
 }
