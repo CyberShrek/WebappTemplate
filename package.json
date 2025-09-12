@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "rollup -c node_modules/@my-company/frontend-config/rollup.config.js"
+    "link": "rm -rf node_modules\nln -s ../WebappClient/node_modules node_modules",
+    "build": "npx rollup -c    --INPUT_DIR=src/main/svelte --OUTPUT_DIR=src/main/resources/public/js/built",
+    "dev":   "npx rollup -c -w node_modules/@vniizht/webapp-client/rollup.config.js --INPUT_DIR=src/main/svelte --OUTPUT_DIR=src/main/resources/public/js/built"
   },
-  "devDependencies": {
-    "@vniizht/frontend-config": "file:../WebappClient"
-  }
+  "extends": "./node_modules/@vniizht/webapp-client/tsconfig.json"
 }
