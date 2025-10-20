@@ -1,6 +1,6 @@
 <script lang="ts">
 
-    import Loading from "./webapp-client/components/common/misc/Loading.svelte"
+    import Loading from "./webapp-client/components/misc/Loading.svelte"
 
     $: console.log(`Hello, I'm svelte!`)
 
