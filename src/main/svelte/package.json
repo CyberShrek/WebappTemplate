@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "link" : "node ../../../../../WebappClient/scripts/link.js",
     "build": "npx rollup -c --dir ../webapp/WEB-RES/js/built",
