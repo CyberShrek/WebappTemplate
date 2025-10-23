@@ -1,5 +1,6 @@
 package org.vniizht.template;
 
+import com.fasterxml.jackson.databind.cfg.MapperBuilder;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -14,6 +15,8 @@ public class Main implements ServletContextListener {
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         Workbook workbook = new XSSFWorkbook();
         System.out.println("POI is working!");
+        MapperBuilder mapperBuilder;
+        System.out.println("Jackson is working!");
     }
 
     public static void main(String[] args) {
