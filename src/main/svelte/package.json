@@ -4,6 +4,7 @@
   "scripts": {
     "link" : "node ../../../../../WebappClient/scripts/link.js",
     "build": "npx rollup -c --dir ../webapp/WEB-RES/js/built",
-    "dev"  : "npm run build -- -w"
+    "dev"  : "npm run build -- -w",
+    "vite" : "vite"
   }
 }

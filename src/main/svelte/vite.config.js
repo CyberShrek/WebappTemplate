@@ -1,0 +1,1 @@
+/home/master/Development/projects/WAFW/WebappClient/vite.config.js
