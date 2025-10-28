@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "link" : "node ../../../../../WebappClient/scripts/link.js",
+    "dev"  : "vite",
+    "build": "vite build"
+  }
+}
