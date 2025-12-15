@@ -1,9 +1,8 @@
 <script lang="ts">
-
-    import Loading from "./import/typescript/svelte/misc/Loading.svelte"
-
+    import Index from "./import/typescript/svelte/index/Index.svelte"
 </script>
 
-<p>Hello world!!!</p>
 
-<Loading/>
+<Index appCode="SUBURB">
+
+</Index>
